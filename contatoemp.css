@@ -1,0 +1,143 @@
+body  {
+    background: linear-gradient( #fff, #fff, rgb(18, 2, 39), rgb(18, 2, 39), #1b1b1b);
+  }
+header {
+    background-color:  rgb(18, 2, 39); 
+    padding: 20px; 
+    position: relative; 
+  }
+  .logo-container {
+    width: 180px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute; 
+    top: 120%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    max-height: 100%; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  .logo:hover {
+    opacity: 1;
+    transition: 400ms;
+   
+  }
+  .logo:hover {
+    opacity: 0.3;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 20px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: rgb(185, 185, 255);
+   } 
+
+   nav a:active{
+    color: rgb(58, 58, 58);
+ }
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 100px 0;
+}
+
+form label, form legend {
+    display:block;
+    color:#949494;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.input-padrao {
+    display: block;
+    background-color:  rgb(18, 2, 39);
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.formulario { 
+    width: 40%;
+    font-size: 20px;
+    background-color: rgb(18, 2, 39);
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.formulario:hover {
+    background-color:  rgb(223, 225, 252);
+    transform: rotate(10deg) scale(1.1);
+}
+
+table {
+    margin: 30px;
+}
+thead {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+td,th {
+    border: 1px solid rgb(204, 204, 204);
+    color: #ffffff ;
+    font-size: 20px;
+    padding: 30px;
+}
+
+th {
+    color: #fff;
+}
+footer {
+    text-align: center;
+    background: url(rodape1.jpg);
+    padding: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 40px;
+    
+}
+.logorodape {
+    width: 10%;
+}
+.copyright {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0 0;
+    
+}
